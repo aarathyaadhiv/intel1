@@ -1,0 +1,127 @@
+.background{
+    background-image: url("background.png");
+    
+    height: 400px;
+    background-position: center;
+    
+    position: relative;
+}  
+.inner-block{
+    position: absolute;
+    background-color: #1d5672;
+    height: 252px;
+    width: 35%;
+    margin-top: 75px;
+    margin-left: 110px;
+    color: white;
+}
+.description{
+    font-size: 19px;
+    line-height: 20px;
+}
+button{
+    height: 40px;
+    width: 154px;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #003c71;
+    font-weight: lighter;
+    cursor: pointer;
+    font-weight: 400;
+}
+.video-block{
+    position: absolute;
+    
+    height: 377px;
+    width: 52.5%;
+    margin-top: 39px;
+    margin-left: 557px;
+}
+.video-block video{
+    object-fit: contain;
+    object-position: center;
+    height: 377px;
+}
+.set-of-services{
+    height: 153px;
+
+    margin-left: 53px;
+    margin-right: 53px;
+    
+    padding-left: 74px;
+    padding-right: 74px;
+}
+.unlisted{
+    list-style: none;
+    display: inline-block;
+    width: 153px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.unlisted p{
+    margin-top: 0px;
+}
+.unlisted img{
+    height: 44px;
+    width: 70px;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 53.5px;
+    margin-left: 53.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+.right-content,.middle-content,.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f3f3f3;
+    padding-bottom: 0px;
+    margin-right: 12px;
+    padding-top: 10px;
+}
+.particular-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-container img{
+    object-fit: contain;
+    object-position: center;
+    width: 315px;
+}
+.particular-content img{
+    width: 156px;
+}
+.normal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2,h3{
+    color: #00285a;
+}
+.left-content{
+    margin-bottom: 255px;
+    
+}
+.right-content{
+    margin-bottom: 278px;
+    
+}
+.middle-content{
+    margin-bottom: 80px;
+}
+.content-container p{
+    line-height: 20px;
+}
